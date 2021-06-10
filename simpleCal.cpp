@@ -16,7 +16,7 @@ int main(){
     if (op == '+'){
         ans = num1 + num2;
     }
-    else if (o == '-'){
+    else if (op == '-'){
         ans = num1 - num2;
     }
     else if(op == '*'){
@@ -26,7 +26,8 @@ int main(){
         ans = num1/num2;
     }
     else {
-        cout<<"ERROR : Entered operator is invalid!.";      //Error message for invalid operator
+        cout<<"\nERROR : Entered operator is invalid!.";
+        return 0;
     }
     cout<<endl;
 
